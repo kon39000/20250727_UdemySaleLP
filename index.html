@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy AI講座 特別セール - 全講座1,300円！</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="campaign-badge">🎯 夏休みスタートダッシュ応援キャンペーン</div>
+                <h1 class="main-title">AI スキルを身につけて<br>未来を切り拓こう</h1>
+                <p class="hero-subtitle">ChatGPT・画像生成AI・音声認識など、今話題のAI技術を<br>実践的に学べる講座が<span class="discount-badge">最大92%オフ</span>の特別価格</p>
+                <div class="hero-price">
+                    <span class="original-price">通常価格 ¥2,600〜¥15,800</span>
+                    <span class="sale-price">全講座 <span class="price">¥1,300</span></span>
+                </div>
+                <div class="coupon-info">
+                    <span class="coupon-text">クーポンコード:</span>
+                    <span class="coupon-code-hero" onclick="copyCouponCode('250728')" title="クリックでコピー">250728</span>
+                </div>
+                <p class="sale-period">📅 2025年7月28日(月) 12:00 〜 8月1日(金) 23:59</p>
+            </div>
+            <div class="hero-image">
+                <img src="hero-bg.png" alt="AI学習中の女の子" class="hero-img">
+            </div>
+        </div>
+    </header>
+
+    <section class="countdown-section">
+        <div class="container">
+            <h2 class="countdown-title">⏰ セール終了まで</h2>
+            <div class="countdown-timer" id="countdown">
+                <div class="time-unit">
+                    <span class="time-value" id="days">00</span>
+                    <span class="time-label">日</span>
+                </div>
+                <div class="time-unit">
+                    <span class="time-value" id="hours">00</span>
+                    <span class="time-label">時間</span>
+                </div>
+                <div class="time-unit">
+                    <span class="time-value" id="minutes">00</span>
+                    <span class="time-label">分</span>
+                </div>
+                <div class="time-unit">
+                    <span class="time-value" id="seconds">00</span>
+                    <span class="time-label">秒</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main class="courses-section">
+        <div class="container">
+            <h2 class="section-title">🎯 対象講座一覧</h2>
+            <div class="courses-grid" id="courses-grid">
+                <!-- 講座カードは JavaScript で動的に生成 -->
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>※ このセールは期間限定です。お早めにお申し込みください。</p>
+            <p>※ クーポンの利用は各講座1回限りです。</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
